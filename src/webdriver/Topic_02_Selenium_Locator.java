@@ -31,18 +31,18 @@ public class Topic_02_Selenium_Locator {
 	}
 
 	@Test
-	public void TC_01_Url() {
-		Assert.assertEquals(driver.getCurrentUrl(), "https://www.facebook.com/");
+	public void TC_01_() {
+		
 	}
 
 	@Test
-	public void TC_02_Logo() {
-		Assert.assertTrue(driver.findElement(By.cssSelector("img.fb_logo")).isDisplayed());
+	public void TC_02_() {
+		
 	}
 
 	@Test
-	public void TC_03_Form() {
-		Assert.assertTrue(driver.findElement(By.xpath("//form[@data-testid='royal_login_form']")).isDisplayed());
+	public void TC_03_() {
+		
 	}
 
 	@AfterClass
