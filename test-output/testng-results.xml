@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-19T04:54:32Z" name="Default suite" finished-at="2023-02-19T04:54:41Z" duration-ms="8988">
+  <suite started-at="2023-02-21T05:45:34Z" name="Default suite" finished-at="2023-02-21T05:45:39Z" duration-ms="4680">
     <groups>
     </groups>
-    <test started-at="2023-02-19T04:54:32Z" name="Default test" finished-at="2023-02-19T04:54:41Z" duration-ms="8988">
+    <test started-at="2023-02-21T05:45:34Z" name="Default test" finished-at="2023-02-21T05:45:39Z" duration-ms="4680">
       <class name="webdriver.Topic_01_Check_Environment">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webdriver.Topic_01_Check_Environment@2d9d4f9d]" started-at="2023-02-19T04:54:32Z" name="beforeClass" finished-at="2023-02-19T04:54:39Z" duration-ms="6932" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webdriver.Topic_01_Check_Environment@e50a6f6]" started-at="2023-02-21T05:45:34Z" name="beforeClass" finished-at="2023-02-21T05:45:39Z" duration-ms="4309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="TC_01_Url()[pri:0, instance:webdriver.Topic_01_Check_Environment@2d9d4f9d]" started-at="2023-02-19T04:54:39Z" name="TC_01_Url" finished-at="2023-02-19T04:54:39Z" duration-ms="15" status="PASS">
+        <test-method signature="TC_01_Url()[pri:0, instance:webdriver.Topic_01_Check_Environment@e50a6f6]" started-at="2023-02-21T05:45:39Z" name="TC_01_Url" finished-at="2023-02-21T05:45:39Z" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01_Url -->
-        <test-method signature="TC_02_Logo()[pri:0, instance:webdriver.Topic_01_Check_Environment@2d9d4f9d]" started-at="2023-02-19T04:54:39Z" name="TC_02_Logo" finished-at="2023-02-19T04:54:39Z" duration-ms="112" status="PASS">
+        <test-method signature="TC_02_Logo()[pri:0, instance:webdriver.Topic_01_Check_Environment@e50a6f6]" started-at="2023-02-21T05:45:39Z" name="TC_02_Logo" finished-at="2023-02-21T05:45:39Z" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_02_Logo -->
-        <test-method signature="TC_03_Form()[pri:0, instance:webdriver.Topic_01_Check_Environment@2d9d4f9d]" started-at="2023-02-19T04:54:39Z" name="TC_03_Form" finished-at="2023-02-19T04:54:39Z" duration-ms="56" status="PASS">
+        <test-method signature="TC_03_Form()[pri:0, instance:webdriver.Topic_01_Check_Environment@e50a6f6]" started-at="2023-02-21T05:45:39Z" name="TC_03_Form" finished-at="2023-02-21T05:45:39Z" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_03_Form -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:webdriver.Topic_01_Check_Environment@2d9d4f9d]" started-at="2023-02-19T04:54:39Z" name="afterClass" finished-at="2023-02-19T04:54:41Z" duration-ms="1840" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:webdriver.Topic_01_Check_Environment@e50a6f6]" started-at="2023-02-21T05:45:39Z" name="afterClass" finished-at="2023-02-21T05:45:39Z" duration-ms="213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
