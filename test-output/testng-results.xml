@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-21T05:45:34Z" name="Default suite" finished-at="2023-02-21T05:45:39Z" duration-ms="4680">
+  <suite started-at="2023-03-03T09:54:44Z" name="Default suite" finished-at="2023-03-03T09:55:15Z" duration-ms="31394">
     <groups>
     </groups>
-    <test started-at="2023-02-21T05:45:34Z" name="Default test" finished-at="2023-02-21T05:45:39Z" duration-ms="4680">
-      <class name="webdriver.Topic_01_Check_Environment">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webdriver.Topic_01_Check_Environment@e50a6f6]" started-at="2023-02-21T05:45:34Z" name="beforeClass" finished-at="2023-02-21T05:45:39Z" duration-ms="4309" status="PASS">
+    <test started-at="2023-03-03T09:54:44Z" name="Default test" finished-at="2023-03-03T09:55:15Z" duration-ms="31394">
+      <class name="webdriver.Topic_03_Web_Element">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webdriver.Topic_03_Web_Element@3ee0fea4]" started-at="2023-03-03T09:54:44Z" name="beforeClass" finished-at="2023-03-03T09:54:47Z" duration-ms="2948" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="TC_01_Url()[pri:0, instance:webdriver.Topic_01_Check_Environment@e50a6f6]" started-at="2023-02-21T05:45:39Z" name="TC_01_Url" finished-at="2023-02-21T05:45:39Z" duration-ms="23" status="PASS">
+        <test-method signature="emptyEmailPassword()[pri:0, instance:webdriver.Topic_03_Web_Element@3ee0fea4]" started-at="2023-03-03T09:54:47Z" name="emptyEmailPassword" finished-at="2023-03-03T09:54:53Z" duration-ms="6076" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_01_Url -->
-        <test-method signature="TC_02_Logo()[pri:0, instance:webdriver.Topic_01_Check_Environment@e50a6f6]" started-at="2023-02-21T05:45:39Z" name="TC_02_Logo" finished-at="2023-02-21T05:45:39Z" duration-ms="74" status="PASS">
+        </test-method> <!-- emptyEmailPassword -->
+        <test-method signature="incorrectEmailorPassword()[pri:0, instance:webdriver.Topic_03_Web_Element@3ee0fea4]" started-at="2023-03-03T09:54:53Z" name="incorrectEmailorPassword" finished-at="2023-03-03T09:55:01Z" duration-ms="8293" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_02_Logo -->
-        <test-method signature="TC_03_Form()[pri:0, instance:webdriver.Topic_01_Check_Environment@e50a6f6]" started-at="2023-02-21T05:45:39Z" name="TC_03_Form" finished-at="2023-02-21T05:45:39Z" duration-ms="35" status="PASS">
+        </test-method> <!-- incorrectEmailorPassword -->
+        <test-method signature="invalidEmail()[pri:0, instance:webdriver.Topic_03_Web_Element@3ee0fea4]" started-at="2023-03-03T09:55:01Z" name="invalidEmail" finished-at="2023-03-03T09:55:08Z" duration-ms="6756" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_03_Form -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:webdriver.Topic_01_Check_Environment@e50a6f6]" started-at="2023-02-21T05:45:39Z" name="afterClass" finished-at="2023-02-21T05:45:39Z" duration-ms="213" status="PASS">
+        </test-method> <!-- invalidEmail -->
+        <test-method signature="passwordLessthan6char()[pri:0, instance:webdriver.Topic_03_Web_Element@3ee0fea4]" started-at="2023-03-03T09:55:08Z" name="passwordLessthan6char" finished-at="2023-03-03T09:55:15Z" duration-ms="7004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordLessthan6char -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:webdriver.Topic_03_Web_Element@3ee0fea4]" started-at="2023-03-03T09:55:15Z" name="afterClass" finished-at="2023-03-03T09:55:15Z" duration-ms="281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- webdriver.Topic_01_Check_Environment -->
+      </class> <!-- webdriver.Topic_03_Web_Element -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
